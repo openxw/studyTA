@@ -54,3 +54,7 @@ Route::middleware('auth')->group(function () {
     Route::post('logout', LogoutController::class)
         ->name('logout');
 });
+
+
+// TALL study
+Route::view('/', 'base/index')->name('ta');
